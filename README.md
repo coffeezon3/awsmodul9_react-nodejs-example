@@ -15,6 +15,10 @@ Dieses Projekt zeigt, wie man eine Anwendung **automatisch über eine Jenkins-Pi
 
 **Ziele:**
 
+1) Create and configure an EC2 instance on AWS
+2) Install Docker on remote EC2 instance
+3) Deploy Docker image from private Dokcer repository on EC2 instance 
+
 1. AWS EC2-Instanz für Deployment vorbereiten (Docker installieren).  
 2. SSH-Key-Credentials für die EC2-Instanz in Jenkins anlegen.  
 3. Continuous Deployment-Pipeline erweitern:
